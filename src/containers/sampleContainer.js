@@ -7,7 +7,9 @@ const container = () => {
   const [message, setmessage] = useState(defaultMessage)
 
   const change = newMessage => {
-    newMessage === message? alert('oops! messege changed :-('): setmessage(newMessage)
+    newMessage === message
+      ? alert('oops! messege changed :-(')
+      : setmessage(newMessage)
   }
 
   const reset = () => {

@@ -15,7 +15,6 @@ class Start extends React.Component {
       </div>
     )
   }
-
 }
 
 export default Start
