@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Sample from '../components/sample/Sample'
 import s from './start.scss'
 
@@ -15,6 +16,10 @@ class Start extends React.Component {
       </div>
     )
   }
+}
+
+Start.propTypes = {
+  message: PropTypes.string,
 }
 
 export default Start

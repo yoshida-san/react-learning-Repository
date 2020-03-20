@@ -60,6 +60,7 @@ export default class Sample extends React.Component {
   alertMessage() {
     const sampleContainer = SampleContainer.useContainer()
     const onClick = () => {
+      // eslint-disable-next-line no-undef
       alert(sampleContainer.message)
     }
     return (
