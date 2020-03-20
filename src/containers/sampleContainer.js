@@ -8,7 +8,8 @@ const container = () => {
 
   const change = newMessage => {
     newMessage === message
-      ? alert('oops! messege changed :-(')
+      ? // eslint-disable-next-line no-undef
+        alert('oops! messege changed :-(')
       : setmessage(newMessage)
   }
 
