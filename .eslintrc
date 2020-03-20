@@ -1,6 +1,6 @@
 {
   "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "plugins": ["react"],
+  "plugins": ["react", "jest", "plugin-proposal-class-properties"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -8,6 +8,7 @@
   },
   "parser": "babel-eslint",
   "env": {
+    "jest/globals": true,
     "es6": true,
     "node": true
   },
