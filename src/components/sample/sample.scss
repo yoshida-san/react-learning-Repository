@@ -1,0 +1,17 @@
+$un: #b700ff;
+$bs: #61DAFB;
+
+.un {
+  color: $un;
+}
+
+.bs {
+  color: $bs;
+}
+
+.buttonGroup {
+  margin-bottom: 10px;
+  button:not(:last-child) {
+    margin-right: 10px;
+  }
+}
