@@ -1,6 +1,6 @@
 {
   "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "plugins": ["react", "jest", "plugin-proposal-class-properties"],
+  "plugins": ["react", "jest"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true

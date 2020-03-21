@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "parcel ./src/index.html",
+    "build": "rm -r dist/ && npx parcel build ./src/index.html",
+    "build-no-maps": "rm -r dist/ && npx parcel build --no-source-maps ./src/index.html"
   },
   "keywords": [],
   "author": "",
