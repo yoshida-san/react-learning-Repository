@@ -1,7 +1,7 @@
-import Calculation from '../src/functions/Calculation'
+import Calculate from '../src/functions/Calculate'
 
 describe('テストサンプル', () => {
-  const c = new Calculation()
+  const c = new Calculate()
   it('1+1が2であること', () => {
     expect(c.sum(1, 1)).toBe(2)
   })
